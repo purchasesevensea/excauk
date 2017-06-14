@@ -1,0 +1,990 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="wf-raleway-n6-active wf-proximanova-n6-active wf-cardo-n4-active wf-proximanova-n4-active wf-raleway-n4-active wf-raleway-n5-active wf-proximanova-n3-active wf-active" style="visibility: visible;"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Michael Smith Realty Partners :: Welcome</title>
+    <link href="i/favicon.ico" rel="Shortcut Icon">
+    <script>if (typeof jmodule == 'undefined') var jmodule={};</script>
+    <script type="text/javascript" src="js/css.js"></script>
+    <link href="cs/ce.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.1.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.ui.mouse.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.draggable.min.js"></script>
+    <link href="cs/fx3.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/fx3.js"></script>
+
+    <script type="text/javascript">
+        site_id=296;
+        epage="/var/www/sites/longpoint/cgi-bin/index.pl";
+        css.open("c/style.css",1);
+        css.update({n:'style',v:'page_h'},{n:'style',v:'h1_height'});
+
+        $(document).on("css_ready", function() {
+            $(document).ready(function() {
+                fx.init();
+                rotate();
+                $(window).scroll(function() {
+                    if ($(document).scrollTop()>50 && !$('#nav').hasClass('white'))
+                    {
+                        $("#nav").addClass('white');
+                    }
+                    else if ($(document).scrollTop()<=50 && $('#nav').hasClass('white'))
+                    {
+                        $("#nav").removeClass('white');
+                    }
+                });
+
+                $('#nav a').click(function () {
+                    $('#nav a').removeClass('sel');
+                    $(this).addClass('sel');
+                });
+            })
+        })
+
+        function rotate()
+        {
+            setTimeout("fx.sliders('#tag').next();rotate();", 4500);
+        }
+    </script><style id="style">
+    .white-text{
+        color: white !important;
+        font-family: "Segoe UI";
+    }
+    body{width:100%;font-family:'raleway';font-weight:500;overflow-x:hidden;background-color:#f3f6f8;font-size:15px;line-height:25px;color:#343434;letter-spacing:1px}
+    @media screen and (max-device-width:480px){
+        body{-webkit-text-size-adjust:100%}
+        p{max-height:9999px}
+    }
+    td{vertical-align:top;padding:0;margin:0}
+    a{outline:none;text-decoration:none}
+    *{margin:0}
+    h1{text-transform:uppercase;font-size:35px;font-weight:300;margin-bottom:20px}
+    p{margin-bottom:15px}
+    .page{padding-top:100px;position:relative}
+    #nav #content{width:610px;padding-left:390px;margin-top:16px;position:absolute;left:50%;margin-left:-500px;height:61px;background:transparent url('i/logo.png') no-repeat 40px 0px;background-size:auto 100%;text-align:right}
+    #nav a{font-family:'proxima-nova';font-weight:600;color:#002e56;text-transform:uppercase;font-size:12px;text-decoration:none;padding-left:26px;line-height:79px}
+    #nav a:first-child{padding-left:0px}
+    #nav a.sel,#nav a:hover{color:#005aab}
+    #nav .linkedInLink{display:block;width:30px;height:29px;background:url(i/linkedIn.png) no-repeat center center;position:absolute;top:-16px;right:0px;padding:0}
+    #nav{width:100%;height:97px;position:fixed;top:0;left:0;z-index:100;background:transparent url('i/nav-bg.png') repeat}
+    #nav.white{background-color:#ffffff}
+    #home .content{width:100%;height:541px;padding-top:97px}
+    #home .p1{width:100%;height:541px;background:transparent url('i/experience.jpg') no-repeat center top;background-size:cover}
+    #home .p2{width:100%;height:541px;background:transparent url('i/ideas.jpg') no-repeat center top;background-size:cover}
+    #home .p3{width:100%;height:541px;background:transparent url('i/knowledge.jpg') no-repeat center top;background-size:cover}
+    #home .p4{width:100%;height:541px;background:transparent url('i/diverse.jpg') no-repeat center top;background-size:cover}
+    #home .p5{width:100%;height:541px;background:transparent url('i/shop.jpg') no-repeat center top;background-size:cover}
+    #home .fx-list{margin-top:-28px;width:250px;padding-left:750px;left:50%;margin-left:-500px!important;position:absolute}
+    #home .fx-list .tab{width:20px;height:30px;margin-right:10px;background:transparent url('i/tab.png') no-repeat;float:left;cursor:pointer}
+    #home .fx-list .fx-on.tab{background:transparent url('i/tab-sel.png') no-repeat}
+    #home h1{width:1000px;left:50%;margin-left:-458px;border-left:solid 2px #f6ba30;color:#fff;font-family:'raleway';font-weight:500;font-size:42px;line-height:50px;position:relative;top:346px;padding-left:25px;text-transform:none}
+    #home h1 div{font-weight:500;font-family:'cardo';text-transform:none;color:#f6ba30}
+    #home #tab{position:relative}
+    #home .btn-arrow{width:28px;height:18px;background:url(i/arow.png) no-repeat;position:absolute;left:50%;bottom:50px;margin-left:-14px;z-index:1;cursor:pointer}
+    #home.page{padding:0}
+    .floatingTable{}
+    .floatingTable div.left{width:50%;float:left;display:block;position:relative;top:0px;left:0px}
+    .floatingTable div.left .content{width:395px;margin-right:79px}
+    .floatingTable div.right{display:block;width:50%;float:right}
+    .floatingTable div.right .content{padding-left:70px;width:405px}
+    #about h1{font-family:'proxima-nova';font-weight:600;color:#FFF;font-size:15px;margin-bottom:9px}
+    #about .contentWide,#about table{width:960px;padding-left:40px;position:relative;left:50%;margin-left:-500px}
+    #about .yellowLine{width:1px;height:100%;position:absolute;top:0px;right:0px;background-color:#F7CF7A}
+    #about .box{width:990px;background:transparent url('i/firm-div-line.png') no-repeat top left;padding-top:55px;padding-bottom:45px}
+    #about .box .left{width:220px;padding-left:40px;line-height:22px;font-family:'proxima-nova';font-weight:600;text-transform:uppercase;letter-spacing:2px}
+    #about .box .right{width:730px}
+    #about li{padding-bottom:15px;padding-right:40px}
+    #about .acont .ele1{width:62px;height:62px;position:absolute;background:url(i/circle.png) no-repeat}
+    #about .acont .ele2{width:20px;height:152px;position:absolute;background:url(i/people.png) no-repeat;top:100px}
+    #about .acont .ele3{width:20px;height:1px;position:absolute;bottom:0;background:#4084BF}
+    #about .acont .ele4{width:71px;height:71px;position:absolute;left:34px;background:url(i/circle-shade.png) no-repeat}
+    #about .acont .ele5{width:148px;height:136px;position:absolute;background:url(i/building.png) no-repeat center center}
+    #about .acont .ele6{width:148px;height:1px;position:absolute;bottom:0;background:#4084BF}
+    #about .acont{position:relative;width:170px;height:160px;margin-top:5px;overflow:hidden}
+    #about .acont.sm{width:140px;height:65px;border-top:1px solid #4084BF;border-bottom:1px solid #4084BF;margin-top:20px}
+    #about ul{list-style-type:none;padding-left:0}
+    #about ul li{padding-left:11px;background:url(i/bulletSmall.png) no-repeat left 11px}
+    #about{background-color:#1C55A7;color:#FFF}
+    #about.page{padding-top:0px;padding-bottom:60px}
+    #about .pageHeader{text-transform:uppercase;font-size:35px;line-height:35px;color:#FFF;font-weight:300}
+    .contentWide{padding:70px 0 30px 0}
+    .pageSubHeader{font-weight:500;font-size:15px;line-height:22px;color:#343434}
+    #about .pageSubHeader{color:#FFF;font-weight:500}
+    .contentWider{width:1000px;position:relative;left:50%;margin-left:-500px}
+    #team .content{width:1000px;position:relative;left:50%;margin-left:-500px}
+    #team h1{color:#002f55;margin-left:40px}
+    #team p.co{font-family:'proxima-nova';color:#002f55;margin-left:40px}
+    #team .box{width:990px;background:transparent url('i/team-div-line.png') no-repeat top left;padding-top:55px}
+    #team .box .left{height:260px;position:relative;width:220px;padding-left:40px;color:#002f55;line-height:22px;font-family:'proxima-nova';font-weight:500;font-size:20px;line-height:22px;text-transform:uppercase;letter-spacing:2px}
+    #team .box .left div{margin-top:11px;font-size:14px;font-weight:300;color:#1369b3;line-height:15px;text-transform:none;font-weight:600;letter-spacing:0px}
+    #team .box .right{width:730px;color:#343434;padding-bottom:30px}
+    #team .box img{border-bottom:1px solid #3F454C;margin-left:0;margin-bottom:12px}
+    #team .box a{color:#002f55;text-decoration:underline;font-size:14px;text-transform:none;letter-spacing:0px}
+    #team p{padding-bottom:15px}
+    #team p.first{font-weight:600}
+    #team{background-color:#c4d9ec;width:100%}
+    #advantages .content{width:960px;padding-left:40px;position:relative;left:50%;margin-left:-500px}
+    #advantages h1{color:#002f55}
+    #advantages p.co{font-family:'proxima-nova';color:#002f55}
+    #advantages .info3 div{position:absolute;font-family:'proxima-nova'}
+    #advantages .e1{top:70px;left:80px;width:162px}
+    #advantages .e2{top:150px;left:80px;width:162px}
+    #advantages .e3{top:270px;left:80px;width:168px}
+    #advantages .e4{top:350px;left:80px;width:168px}
+    #advantages .e5{top:70px;right:0px;width:130px}
+    #advantages .e6{top:150px;right:0px;width:130px}
+    #advantages .e7{top:270px;right:0px;width:168px}
+    #advantages .e8{top:370px;right:0px;width:168px}
+    #advantages .e9{top:85px;left:0px;color:#145F9D;font-size:60px;font-weight:500;letter-spacing:-2px}
+    #advantages .e10{top:165px;left:0px;color:#145F9D;font-size:60px;font-weight:500;width:55px;text-align:right;letter-spacing:-2px}
+    #advantages .e11{top:285px;left:0px;color:#38454F;font-size:60px;font-weight:500;letter-spacing:1px;width:60px;text-align:right}
+    #advantages .e12{top:365px;left:0px;color:#38454F;font-size:60px;font-weight:500;width:55px;text-align:right;letter-spacing:-2px}
+    #advantages .e13{top:85px;right:150px;color:#708E66;font-size:60px;font-weight:500;letter-spacing:-2px}
+    #advantages .e14{top:165px;right:150px;color:#708E66;font-size:60px;font-weight:500;letter-spacing:-2px}
+    #advantages .e15{top:285px;right:180px;color:#002F55;font-size:60px;font-weight:500;letter-spacing:-2px}
+    #advantages .e16{top:390px;right:190px;color:#002F55;font-size:60px;font-weight:500;letter-spacing:-2px}
+    #advantages .e17{top:155px;left:10px;color:#145F9D;font-size:20px;font-weight:500}
+    #advantages .e18{top:380px;right:225px;color:#002F55;font-size:20px;font-weight:500}
+    #advantages .e19{top:75px;right:135px;color:#708E66;font-size:25px;font-weight:600}
+    #advantages .e20{top:170px;right:135px;color:#708E66;font-size:25px;font-weight:600}
+    #advantages .e21{top:150px;right:135px;color:#708E66;font-size:17px;font-weight:600}
+    #advantages .e22{top:165px;left:45px;color:#145F9D;font-size:10px;font-weight:600;text-transform:uppercase;transform:rotate(-90deg);-ms-transform:rotate(-90deg);-webkit-transform:rotate(-90deg)}
+    #advantages .e23{top:390px;right:160px;color:#002F55;font-size:10px;font-weight:600;text-transform:uppercase;transform:rotate(-90deg);-ms-transform:rotate(-90deg);-webkit-transform:rotate(-90deg)}
+    #advantages .e24{top:140px;left:300px;color:#145F9D;font-size:20px;font-weight:500;text-transform:uppercase;width:150px;text-align:center;line-height:1.1em;letter-spacing:-1px}
+    #advantages .e25{top:140px;left:500px;color:#708E66;font-size:20px;font-weight:500;text-transform:uppercase;width:150px;text-align:center;line-height:1.1em;letter-spacing:-1px}
+    #advantages .e26{top:320px;left:300px;color:#38454F;font-size:20px;font-weight:500;text-transform:uppercase;width:150px;text-align:center;line-height:1.1em;letter-spacing:-1px}
+    #advantages .e27{top:320px;left:500px;color:#002F55;font-size:20px;font-weight:500;text-transform:uppercase;width:150px;text-align:center;line-height:1.1em;letter-spacing:-1px}
+    #advantages{background-color:#F1F5F7;width:100%}
+    #strategy .content{width:960px;padding-left:40px;position:relative;left:50%;margin-left:-500px}
+    #strategy h1{color:#002f55}
+    #strategy p.co{font-family:'proxima-nova';font-weight:500;color:#002f55}
+    #strategy .pageSubHeader{color:#002f55}
+    #strategy .pageSubHeader.co{font-family:'proxima-nova';color:#002f55}
+    #strategy .floatingTable{margin:35px 0 33px 0}
+    #strategy .info1{margin-top:20px}
+    #strategy .floatingTable .left p,#strategy .floatingTable .right p{border-top:1px solid #CED9E4;padding-top:15px}
+    #strategy .floatingTable .left p{margin-right:30px}
+    #strategy .floatingTable .right p{margin-left:30px}
+    #strategy .info1 div{position:absolute}
+    #strategy .e1{font-size:16px;color:#fff;text-transform:uppercase;left:400px;text-align:center;width:160px;top:70px;font-family:'proxima-nova';font-weight:300px;line-height:1.2em}
+    #strategy .e2{font-size:16px;color:#fff;text-transform:uppercase;left:275px;text-align:center;width:140px;top:205px;font-family:'proxima-nova';font-weight:300px;line-height:1.2em}
+    #strategy .e3{font-size:16px;color:#fff;text-transform:uppercase;left:540px;text-align:center;width:140px;top:205px;font-family:'proxima-nova';font-weight:300px;line-height:1.2em}
+    #strategy .e4{font-size:16px;color:#fff;text-transform:uppercase;left:400px;text-align:center;width:160px;top:335px;font-family:'proxima-nova';font-weight:300px;line-height:1.2em}
+    #strategy{background-color:#F5F8FB;width:100%;padding-top:100px}
+    #stratSub .page{padding:100px 0 21px 0}
+    #stratSub .content{width:960px;padding-left:40px;position:relative;left:50%;margin-left:-500px}
+    #stratSub .icon{min-height:205px;padding-top:95px;color:#343434}
+    #stratSub ul{width:550px;margin-left:340px}
+    #stratSub li{margin-bottom:15px}
+    #stratSub #acquire{background:transparent url('i/acquire.png') no-repeat top left}
+    #stratSub #execute{background:transparent url('i/execute.png') no-repeat top left}
+    #stratSub #exit{background:transparent url('i/exit.png') no-repeat top left}
+    #stratSub strong{font-weight:600}
+    #stratSub .fx-list{position:relative;left:340px;top:40px;font-size:20px;color:#cbd6df;font-family:'proxima-nova';font-weight:500;line-height:28px;cursor:pointer;z-index:100}
+    #stratSub .fx-list a{padding-right:25px;border-right:solid 1px #cbd6df;margin-right:25px;text-transform:uppercase}
+    #stratSub .fx-list a.last{padding:0;border:none;margin:0}
+    #stratSub .fx-list a.fx-on{color:#002f55}
+    #stratSub .pageSubHeader{color:#002f55;margin-bottom:46px}
+    #stratSub .fx-slides ul{list-style-type:none;padding-left:0}
+    #stratSub .fx-slides ul li{padding-left:11px;background:url(i/bulletSmallBlue.png) no-repeat left 11px}
+    #stratSub{background-color:#FFF}
+    #infographics .content{width:960px;padding-left:40px;position:relative;left:50%;margin-left:-500px}
+    #infographics h1{color:#002f55;text-align:left}
+    #infographics .co{text-align:left;margin-bottom:25px}
+    #infographics p.co{font-family:'proxima-nova';color:#002f55;font-weight:500}
+    #infographics{background-color:#ffffff;width:100%}
+    #news .content{width:1000px;position:relative;left:50%;margin-left:-500px}
+    #news h1{color:#002e56;margin:0 0 30px 40px}
+    #news #control{width:960px;padding-left:40px;height:37px;padding-top:20px;background:transparent url('i/news-div-line.png') no-repeat top left;color:#ffffff;font-family:'proxima-nova';font-weight:600;font-size:18px}
+    #news #control a{color:#ffffff;font-family:'proxima-nova';font-weight:600;letter-spacing:1px;font-size:18px;text-transform:uppercase;cursor:pointer}
+    #news .fx-list{display:none}
+    #news .newsitem > div{padding-left:40px}
+    #news .newsitem a{font-size:20px;color:#002e56;cursor:pointer;font-family:'proxima-nova';font-weight:500;text-transform:uppercase;display:block;border-top:1px solid #1369B3;padding-top:20px}
+    #news .newsitem div div{padding-top:6px;font-size:13px;color:#002e56;font-family:'proxima-nova';font-weight:600;line-height:13px;margin-bottom:19px;letter-spacing:0px}
+    #news .newsitem{color:#343434}
+    #news .newsitemIndividual{padding-bottom:15px}
+    #news .newsitem .newsitemIndividual:first-child a{border-top:none}
+    #news{background:#cececf url('i/news-bg.jpg') top center no-repeat;width:100%}
+    #assets .content{width:1080px;position:relative;left:50%;margin-left:-560px;padding-left:40px}
+    #assets h1{color:#FFF;margin:0}
+    #assets .assetSlider{margin-top:60px}
+    #assets .assetItem{width:313px;margin-right:5px;float:left;letter-spacing:0px}
+    #assets .AISLide .assetItem:first-child,#assets h1{margin-left:60px}
+    #assets .assetImage{width:100%;height:249px;background-size:cover;background-position:center center;margin-bottom:28px}
+    #assets .assetItemContent{padding:0px 30px 0 20px;border-left:1px solid #2F385C}
+    #assets .AIName{color:#52ABFC;font-size:15px;font-family:'raleway';font-weight:600;margin-bottom:0;line-height:18px}
+    #assets .AILocation{color:#FFF}
+    #assets .AIDesc{border-top:1px solid #2F385C;padding:14px 0 16px 0}
+    #assets .AILower{padding:0px 30px 1px 20px;color:#FFF;border-left:1px solid #2F385C}
+    #assets .AILower .line{height:14px;width:100%;border-top:1px solid #2F385C}
+    #assets .AILower a{color:#4BA5F6;border-bottom:1px solid #4BA5F6}
+    #assets .assetSlider .fx-left-arrow,#assets .assetSlider .fx-right-arrow{height:100%}
+    #assets .assetSlider .fx-left-arrow img,#assets .assetSlider .fx-right-arrow img{position:relative;top:50%;margin-top:-20px}
+    #assets .assetItemContent ul{list-style-type:none;padding-left:0}
+    #assets .assetItemContent ul li{padding-left:11px;background:url(i/darkButlletSmall.png) no-repeat left 11px;color:#FFF}
+    #assets{background-color:#171C31;width:100%;padding-bottom:100px}
+    .assetSlider{}
+    #contact .content{width:1000px;position:relative;left:50%;margin-left:-500px}
+    #contact h1{color:#ffffff;margin-left:40px}
+    #contact td{width:480px;padding-top:20px;color:#6eb3dc;line-height:15px;font-weight:500;padding-left:40px;color:#c9d9e2;line-height:25px}
+    #contact td a{color:#6eb3dc}
+    #contact h2{font-family:'proxima-nova';font-weight:300;color:#ffffff;text-transform:uppercase;margin-bottom:25px;margin-top:0}
+    #contact .btn-terms{position:absolute;bottom:40px;margin-left:-65px;display:inline-block;color:#fff;width:130px;left:50%;text-align:center;font-size:12px;cursor:pointer}
+    #contact .linkedBottomHeader{margin:55px 0 15px 0}
+    #contact .linkedBottom{display:block;height:30px;width:30px;background:url(i/linkedBottom.png) no-repeat center center}
+    #contact{background:#0f131f url('i/contact-bg.jpg') top center no-repeat;width:100%;height:830px}
+    #cover{background:#000;position:fixed;width:100%;height:100%;z-index:999;top:0;left:0;opacity:0.7;filter:alpha(opacity=70);display:none}
+    #terms .content{width:100%;overflow-y:auto;height:100%;color:#000;font-size:12px;line-height:1.3em}
+    #terms .btn-close{width:33px;height:33px;background:url(i/btn-close.png) no-repeat;position:absolute;top:0;right:0;cursor:pointer}
+    #terms{background:#fff;width:920px;position:fixed;left:50%;margin-left:-480px;top:5%;height:80%;display:none;z-index:1000;padding:3% 20px}
+    #str1{min-height:440px}
+    .assetTable{margin-top:63px}
+    .assetSliderSuperContainer{width:20000px;position:relative;top:0px;left:0px}
+    #leftArrow,#rightArrow,.ASSCbox{float:left}
+    #leftArrow,#rightArrow{display:block;width:20px;height:100%;cursor:pointer}
+    #leftArrow{background:url(i/arrowLeft.png) no-repeat center center;margin-right:42px}
+    #rightArrow{background:url(i/arrowRight.png) no-repeat center center;margin-left:37px}
+    .ASSCbox{width:954px;overflow:hidden}
+    .assetSliderC{display:block;float:left}</style>
+    <style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-raleway{font-family:"raleway",sans-serif;}.tk-cardo{font-family:"cardo",serif;}</style><style type="text/css">@font-face{font-family:tk-proxima-nova-n6;src:url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-proxima-nova-n3;src:url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:tk-raleway-n4;src:url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:tk-raleway-n5;src:url(https://use.typekit.net/af/356eab/000000000000000000013289/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/356eab/000000000000000000013289/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/356eab/000000000000000000013289/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:tk-raleway-n6;src:url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:tk-cardo-n4;src:url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}</style><script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/921f74/00000000000000003b9ad1bb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/015ec8/00000000000000003b9ad1b5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:raleway;src:url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/a4ebe0/000000000000000000013288/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:raleway;src:url(https://use.typekit.net/af/356eab/000000000000000000013289/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/356eab/000000000000000000013289/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/356eab/000000000000000000013289/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:raleway;src:url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/f7318b/000000000000000000014968/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:600;font-style:normal;}@font-face{font-family:cardo;src:url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff2"),url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("woff"),url(https://use.typekit.net/af/92da0f/000000000000000000012369/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&token=R9s7ACGzlCBUT53d%2FaHbyXTxMWCgVo%2ByU96LkWOhAJwnblb%2BMlEnhKtPntRuglNYrw6qOWtjZccJk8DmPoWP%2FV7KFuDGGMUWNyB%2B374R3Sk%3D) format("opentype");font-weight:400;font-style:normal;}</style>
+</head>
+<body cz-shortcut-listen="true">
+<div id="nav" class="white">
+    <div id="content">
+        <a href="#home">Home</a>
+        <a href="#ABOUT">About</a>
+        <a href="#STRATEGY" class="sel">Strategy</a>
+        <a href="#TEAM">Team</a>
+        <a href="#PROPERTIES" class="">Properties</a>
+        <a href="#NEWS">News</a>
+        <a href="#CONTACT">Contact Us</a>
+        <a class="linkedInLink" href="#" target="_blank"></a>
+    </div>
+</div>
+
+<div class="page" id="home">
+    <div class="content">
+
+        <div id="tag" fx="{'slider':{'effect':'sFade','nav':{'position':'bottom', 'manual':1 } }}">
+            <div>
+                <div class="tab first"></div>
+                <div class="tab"></div>
+                <div class="tab"></div>
+                <div class="tab"></div>
+                <!--<div class="tab"></div>-->
+            </div>
+            <a class="btn-arrow"></a>
+            <div>
+                <div class="p1"><h1><ce oet="1">Welcome to MSP.</ce><div><ce oet="2">Focused on the Consumer. Investing in Real Estate.</ce></div></h1></div>
+                <div class="p2"><h1><ce oet="3">Technological Advances. Demographic Shifts.</ce><div><ce oet="4">Real Estate Opportunities.</ce></div></h1></div>
+                <div class="p3"><h1><ce oet="5">Experienced Team.</ce><div><ce oet="6">Focused Strategy.</ce></div></h1></div>
+                <div class="p4"><h1><ce oet="7">Diverse Perspectives.</ce><div><ce oet="8">Local Relationships.</ce></div></h1></div>
+                <!--<div class="p5"><h1><ce oet="9">Client Focused</ce><div><ce oet="10">Managed Risk</ce></div></h1></div>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".btn-arrow","#tag").click(function() {
+            $("body,html").animate({scrollTop:css.vars.h()-65},800);
+        });
+    });
+</script>
+
+<div id="ABOUT" style="position:relative; top:-65px;"></div>
+<div class="page" id="about">
+    <div class="contentWide">
+        <h1 class="pageHeader">About</h1>
+        <!--<p class="pageSubHeader">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>-->
+    </div>
+    <table cellpadding="0" cellspacing="0" border="0" class="floatingTable"><tbody><tr><td>
+        <div class="left">
+            <div class="yellowLine"></div>
+            <div class="content">
+                <h1><ce oet="11">About Us</ce></h1>
+                <ce oet="12"><p class="white-text">Michael Smith Realty Partners, MS (“Michael Smith”) is a real estate private equity firm and Regulated Investment Adviser with its headquarters in Kiev, Ukraine. The Firm focuses on maximizing risk adjusted returns by employing a fundamental value strategy to real estate investing. Michael Smith seeks to take advantage of secular changes in consumer behavior by acquiring “Last Mile” industrial and infill retail properties.</p>
+                    <p class="white-text">Founding Partners Michael Smith, Joy Smith and Reid Parker have&nbsp;worked together for the better part of ten years and have successfully navigated multiple market cycles.</p></ce>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1><ce oet="13">About Our Name</ce></h1>
+                <ce oet="14">
+                    <p class="white-text">Michael Smith is named after its Founder and current CEO Michael Smith.</p>
+                    <p class="white-text">Our name signifies our commitment to the qualities embodied by our Company's central figure. Early in the business, Michaels's unwavering commitment to high standards and quality made it difficult for the business to compete with others engaged in cutting corners for higher profit, Michael was always true to himself and his work, refusing to soil his reputation for immediate gains. Today, Michael Smith Realty Partners is one of the most trusted Real Estate Investment company, and Michael Smith's name is synonymous with quality and class.
+                </ce>
+            </div>
+        </div>
+    </td></tr></tbody></table>
+
+    <div class="contentWide">
+        <h1><ce oet="15">Firm</ce></h1>
+        <p class="pageSubHeader"><ce oet="16">Michael Smith employs a fundamental value approach to investing in primarily infill industrial and retail properties in Ukraine with an emphasis on property level value creation and solving complex situations.</ce></p>
+    </div>
+    <div class="contentWider">
+
+        <div class="box" id="boxAL">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left"><ce oet="18">Experienced<br>Team</ce>
+                    <div class="acont">
+                        <div class="ele2" style="left: 0px; top: 8px;"></div>
+                        <div class="ele2" style="left: 40px; top: 8px;"></div>
+                        <div class="ele2" style="left: 80px; top: 8px;"></div>
+                        <div class="ele2" style="left: 120px; top: 8px;"></div>
+                        <div class="ele3" style="left:0"></div>
+                        <div class="ele3" style="left:40px"></div>
+                        <div class="ele3" style="left:80px"></div>
+                        <div class="ele3" style="left:120px"></div>
+                    </div>
+                </td>
+                <td class="right">
+                    <ce oet="19"><ul class="white-text">
+                        <li>Over 80 years of combined institutional experience in investment management</li>
+                        <li>Successfully navigated multiple market cycles</li>
+                        <li>Worked and invested collaboratively at TA Associates Realty for almost 10 years</li>
+                    </ul></ce>
+                </td>
+            </tr>
+            </tbody></table>
+        </div>
+
+        <div class="box" id="boxAL">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left"><ce oet="18">Deep Operating<br>Expertise</ce>
+                    <div class="acont">
+                        <div class="ele5" style="left: 0px; bottom: 0px;"></div>
+                        <div class="ele6" style="left:0"></div>
+                    </div>
+                </td>
+                <td class="right">
+                    <ce oet="19"><ul class="white-text">
+                        <li>Managed and operated over $8 billion of real estate assets</li>
+                        <li>Acquired over $2 billion of real estate</li>
+                        <li>Completed over 60 asset repositionings/redevelopments and developed 18 ground‐up projects</li>
+                    </ul></ce>
+                </td>
+            </tr>
+            </tbody></table>
+        </div>
+
+        <div class="box" id="boxDS">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left"><ce oet="16">Focused<br>Strategy</ce>
+                    <div class="acont">
+                        <div class="ele1" style="left: 54px; top: 28px;"></div>
+                        <div class="ele1" style="left: 32px; top: 58px;"></div>
+                        <div class="ele1" style="left: 74px; top: 58px;"></div>
+                    </div>
+                </td>
+                <td class="right">
+                    <ce oet="17"><ul class="white-text">
+                        <li>Focusing on the real estate supply/demand imbalances driven by secular trends impacting consumer behavior</li>
+                        <li>Targeting underperforming “last mile” industrial and infill retail properties</li>
+                        <li>Investing in five major markets (Kiev, Mykolaiv, Donetsk, Kharkiv, Dnipropetrovsk) and five secondary markets (Odesa, Zaporizhia, Lvivn, Mykolaiv, Luhansk)</li>
+                    </ul></ce>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box" id="boxAI">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left"><ce oet="20">Alignment<br>Of Interests</ce>
+                    <div class="acont sm">
+                        <div class="ele4" style="top: -32px;"></div>
+                        <div class="ele4" style="bottom: -32px;"></div>
+                    </div>
+                </td>
+                <td class="right">
+                    <ce oet="21"><ul class="white-text">
+                        <li>Aligned with investors through a studied and deliberate approach to investing and company management</li>
+                        <li>Embraces a culture of transparency, integrity, and honesty where the client’s success leads to collective success</li>
+                    </ul></ce>
+                </td>
+            </tr></tbody></table>
+        </div>
+    </div>
+</div>
+
+<script>
+    var stid;
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            clearTimeout(stid);
+            stid=setTimeout(function() {
+                var t=$(window).scrollTop();
+                $(".acont").each(function() {
+                    if ($(this).offset().top<=t+480 && $(this).hasClass("off"))
+                    {
+                        $(this).removeClass("off").children().stop(true,true).trigger("se1");
+                    }
+                    else if ($(this).offset().top>t+480 && !$(this).hasClass("off"))
+                    {
+                        $(this).addClass("off").children().stop(true,true).trigger("se2");
+                    }
+                });
+            },50);
+        });
+    });
+</script>
+
+<div id="STRATEGY" style="position:relative; top:-45px;"></div>
+<div class="page" id="strategy">
+    <div class="content">
+        <h1><ce oet="24">Strategy</ce></h1>
+        <p class="pageSubHeader co">Michael Smith believes that Ukraine remains in the early stages of a fundamental evolution of business-to-business and business-to-consumer interactions within the current Ukraine real estate infrastructure. Changes in consumer behavior driven by advances in technology and demographic shifts are creating a supply/demand imbalance for “last-mile” warehouse and infill shopping centers throughout Ukraine</p>
+        <table cellpadding="0" cellspacing="0" border="0" class="floatingTable"><tbody><tr><td>
+            <div class="left">
+                <p class="co"><ce oet="40">The rise of omni-channel retailing and push toward same-day delivery is disrupting the traditional supply chain model and increasing demand for “last mile” industrial space near dense population centers.</ce></p>
+            </div>
+            <div class="right">
+                <p class="co"><ce oet="99">The multigenerational re-urbanization movement is revitalizing infill communities and directly impacting consumer demand for more culturally relevant and experience-based retail shopping centers.</ce></p>
+            </div>
+        </td></tr></tbody></table>
+
+        <p class="co">Michael Smith has the experience, relationships, and ability to uncover and capitalize on opportunities to create long‐term value for our investors.</p>
+
+        <div class="info1" style="background:url(i/infographics.jpg) no-repeat center center;font-size:14px;line-height:20px;width:940px;height:458px;position:relative;margin-bottom:100px;color:#343434;">
+            <div style="position:absolute;left:10px;top:130px;width:200px;"><ce oet="41">Focus on inefficient marketing campaigns</ce></div>
+            <div style="position:absolute;left:10px;bottom:41px;width:200px;"><ce oet="42">Focus on solving distressed ownership and capital structures</ce></div>
+            <div style="position:absolute;right:0;top:86px;width:200px;"><ce oet="43">Focus on increasing net operating income</ce></div>
+            <div style="position:absolute;right:0;bottom:114px;width:200px;"><ce oet="44">Focus on key tenant and market drivers</ce></div>
+            <div class="e1"><ce oet="s100">asset repositioning</ce></div>
+            <div class="e2"><ce oet="s101">imperfect sales process</ce></div>
+            <div class="e3"><ce oet="s102">sub market vision</ce></div>
+            <div class="e4"><ce oet="s103">complex situations</ce></div>
+        </div>
+
+    </div>
+</div>
+
+<div id="stratSub" style="position:relative;">
+    <div class="page" id="">
+        <div class="content">
+            <p class="pageSubHeader co"><ce oet="25">Michael Smith employs a disciplined approach to each facet of the investment process allowing the Firm to pursue value creation across the entire investment life cycle.</ce></p>
+            <div id="str1" class="fx-slider fx-relative">
+                <div class="fx-list" style="overflow: hidden; position: relative;"><div style="position: relative; left: 0px;">
+                    <a class="fx-nav"><ce oet="26">Acquire</ce></a>
+                    <a class="fx-nav"><ce oet="27">Execute</ce></a>
+                    <a class="last fx-nav fx-on"><ce oet="28">Exit</ce></a>
+                </div></div>
+                <div class="fx-slides" style="overflow: hidden; position: relative; width: 960px; margin-left: 0px; margin-right: 0px;"><div style="position: relative; width: 2880px; left: -1920px;">
+                    <div class="icon" id="acquire" style="float: left; width: 960px; margin-top: 1px; height: 0px;"><ce oet="29"><ul>
+                        <li>Leverage established local network to source high conviction off-market deals</li>
+                        <li>Target well-located, under-utilized properties in need of physical repositioning</li>
+                        <li>Target high quality assets with a distressed capital structure or broken sales process</li>
+                        <li>Complete comprehensive research and due diligence of property and local market</li>
+                    </ul></ce>
+                    </div>
+
+                    <div class="icon" id="execute" style="float: left; width: 960px; margin-top: 1px; height: 0px;"><ce oet="30"><ul>
+                        <li>Extensive asset management experience allows the team to directly create value at the real estate level</li>
+                        <li>Implement detailed value-added strategy (VISTA program) through proactive leasing and property management, with a focus on increasing NOI</li>
+                        <li>Complete strategic capital improvements while working aggressively with property management to reduce costs, maximizing the value added to the property</li>
+                        <li>As a hands-on owner, Michael Smith avoids ‘allocator model’ of relying on operating partners</li>
+                    </ul></ce>
+                    </div>
+
+                    <div class="icon" id="exit" style="float: left; width: 960px;"><ce oet="31"><ul>
+                        <li>Continuously monitor exit potential based on capital market conditions and asset level fundamentals</li>
+                        <li>Exercise strict exit discipline to maximize risk adjusted returns</li>
+                        <li>Focus on shorter hold periods, emphasizing IRR outperformance</li>
+                        <li>Portfolio management focused on risk management and performance maximization</li>
+                    </ul></ce>
+                    </div>
+                </div></div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var stid2;
+    function movenext(e)
+    {
+        clearTimeout(stid2);
+        stid2=setTimeout(function() {
+            fx.sliders(e).next();
+        },12000);
+    }
+    stid2=setTimeout(function() {
+        fx.sliders("#str1").next();
+    },7000);
+</script>
+
+<div id="TEAM" style="position:relative; top:-45px;"></div>
+<div class="page" id="team">
+    <div class="content">
+        <h1><ce oet="22">TEAM</ce></h1>
+        <p class="pageSubHeader co"><ce oet="23">The Founding Partners are a complementary team with an average of over 20 years of real estate and financial industry experience who had worked and invested together for close to 10 years. Prior to launching Michael Smith, our founder acquired more than $2 billion of real estate across property types and geographies and asset managed over $8 billion of real estate properties.</ce></p>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/1014.png">
+                    Michael Smith<div>C.E.O and<br>Founding Partner</div>
+                    <br><a href="mailto:michael@michaelsmithpartners.com">michael@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Mr. Michael serves as the C.E.O guiding the firm’s overall strategy and is responsible for acquisitions. He is a member of the Firm’s Investment Committee.</p>
+                    <p>Prior to founding Michael Smith, Mr. Michael was a portfolio manager for Gioni Associates Realty, a multi-strategy hedge fund and a member of the firm's Management and Investment Committees. Mr. Angelini began his career at Goldman Sachs Group as a financial analyst in the Investment Management Division. <br><br>Mr. Angelini earned his MBA from Harvard Business School (2004), publishing two real estate business case studies still in use; and his BA in psychology from Yale University (1997), where he captained the soccer team. Mr. Michael engages in several philanthropic ventures like Scholarship to the best Schools worldwide for financially disadvantaged Young Innovators.</p>
+                    <p>During his tenure at Gioni Associates Realty, Mr. Michael was a key member of the management group. In addition, he was a voting member of the acquisitions committee for over seven years during the construction of four commingled funds totaling over $10 billion. At Gioni, Mr. Michael acquired over $1.4 billion of real estate.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/1016.png"><br>
+                    Joy Smith<div>Vice President</div>
+                    <br><a href="mailto:joy@michaelsmithpartners.com">joy@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Ms. Joy joined Michael Smith in 2015 as a Vice President working with the Principals in the Acquisitions and Asset Management groups. Prior to joining Michael Smith Realty Partners, Ms. Joy worked as a Senior Associate at TA Associates Realty.</p>
+                    <p>Ms. Joy worked in the Acquisitions group and was directly involved with sourcing, underwriting, and negotiating the purchase of commercial real estate properties across the East Coast, Midwest region, and Mountain states. During her tenure at TA, Ms. Joy managed the due diligence and closing process for over $815 million of industrial, retail, office, and multifamily assets totaling 8.7 million square feet on behalf of TA’s commingled funds and separate account clients. Prior to working at TA, Ms. Joy practiced architecture in the Midwest, specializing in historic preservation, urban redevelopment, and sustainable design; she is a LEED Accredited Professional.</p>
+                    <p>Ms. Joy holds a BA in Architecture from the University of Michigan (2007) and an MBA in Finance and Real Estate from the University of Connecticut (2012). Ms. Joy sits on the Board of Directors for Women in Real Estate (WIRE) Boston, an organization dedicated to providing a networking venue for women in the private equity real estate business.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/1015.png">
+                    Arvind<br>J. Meyers<div>Founding Partner</div>
+                    <br><a href="mailto:meyers@michaelsmithpartners.com">meyers@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Mr. Meyers oversees asset management and development and is also responsible for acquisitions in Donetsk. He serves as the Chief Compliance Officer and is a member of the Firm’s Investment Committee.</p>
+                    <p>Arvind Meyers has more than 15 years of real estate investment management experience. He joined TA Associates Realty in 1998 and served in a dual capacity in Portfolio Management and Asset Management for 12 years. Mr. Meyers was the portfolio manager on five TA separate accounts that encompassed portfolios with a mix of core assets with an aggregate market value of more than $1.85 billion. He directed strategic portfolio decisions including acquisitions, dispositions and debt structuring.</p>
+                    <p>During his tenure in asset management, Mr. Meyers had direct oversight of assets and operating experience in Kiev and Donetsk. Mr. Meyers has created and implemented core, value-add and development strategies on over $6.0 billion worth of assets across industrial, office, retail and multi-family properties.</p>
+                    <p>Prior to joining TA, he worked at KDW Capital Management in Kiev where he helped identify and underwrite new acquisitions for KDW's opportunity fund. He enjoys recreational skiing and is an avid car enthusiast.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/3252.png">
+                    <br />
+                    David Moore<div>Founding Partner, CFO<br> and Portfolio Manager</div>
+                    <br><a href="mailto:david@michaelsmithpartners.com">david@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Mr. David oversees portfolio strategy and operations for the commingled funds and serves as the Chief Financial Officer.&nbsp;He is a member of the Firm’s Investment Committee.</p>
+                    <p>At TA Associates Realty, Mr. David oversaw the value-add portfolio management group for all commingled funds. Mr. David also directly implemented multiple value-add and core strategies across a portfolio of real estate covering various East Coast markets. As a voting member of the finance committee, he negotiated new and renewal debt proceeds and oversaw the deleveraging and debt restructuring of multiple commingled funds. Prior to TA, Mr. David spent 10 years at Arthur Andersen and Ernst &amp; Young in public accounting and management consulting, serving clients in real estate and other industries around the globe.</p>
+                    <p>Mr. David earned his MBA from the Wharton School of the University of Pennsylvania (1995), graduating cum laude; and his bachelor of commerce from Stanford University (1989) where he played squash at the state level. In addition, he holds a Chartered Accountant designation.<br><br>Mr. David has served as a guest lecturer of real estate finance at the Vanderbilt Owen Graduate School of Business in Nashville, TN. He is a member of the United Way Real Estate Breakfast Committee and is on the Board of the Real Estate Finance Association (REFA) in Boston. He is an avid squash player and equestrian.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/1017.png">
+                    Robert<br>A.  Provost III<div>Founding Partner</div>
+                    <br><a href="mailto:provost@michaelsmithpartners.com">provost@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Mr. Provost oversees the acquisitions and dispositions process and is responsible for acquisitions in the Northeast, Mid-Atlantic and Southeast. He is a member of the Firm’s Investment Committee.</p>
+                    <p>Mr. Provost has held senior positions in major real estate private equity firms with a special focus on sourcing, negotiating and executing over $2.7 billion of acquisitions over a 25-year career. He brings an extensive network of relationships, enabling Michael Smith to access off-market opportunities on the East Coast.</p>
+                    <p>Robert Provost joined TA Associates Realty in 2004 as a Partner in the Acquisitions Group, with primary responsibility for sourcing, underwriting and negotiating the purchase of industrial, office and retail assets along the East Coast.</p>
+                    <p>Mr. Provost was also a key player in the firm's fund-raising activities. In this role, he was responsible for presentations to consultants, public and corporate pension plan boards, endowments and foundations.</p>
+                    <p>Prior to joining TA, Mr. Provost was senior vice president/director of real estate acquisitions and dispositions for the Eastern United States for KBS Realty Advisors. At KBS, he acquired and oversaw the disposition of commercial real estate assets totaling over $1 billion. Previously, he worked in the Real Estate and Restructured Real Estate Departments at the First National Bank of Boston.</p>
+                    <p>Mr. Provost holds a bachelor of arts in economics from the University of Vermont (1985) and an MBA (cum laude) from Boston University (1990). His interests include ice hockey, guitar and travel.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box">
+            <table cellspacing="0"><tbody><tr>
+                <td class="left">
+                    <img src="biopics/3257.png">
+                    Aaron<br>Herter<div>Vice President</div>
+                    <br><a href="mailto:herter@michaelsmithpartners.com">herter@michaelsmithpartners.com</a>
+                </td>
+                <td class="right">
+                    <p class="first">Mr. Herter joined Michael Smith in 2016 as a Vice President working with the Principals in the Acquisitions and Asset Management groups. Prior to joining Michael Smith Realty Partners, Mr. Herter worked as a Vice President at Jones Lang LaSalle (JLL) in San Francisco where he spent nine years in the Capital Markets Group.</p>
+                    <p>During his tenure at JLL, Mr. Herter helped close $4.2 billion and 23 million square feet of commercial real estate transactions and built a global network of clients ranging from the largest institutional fund advisors to regional operators. Mr. Herter managed all aspects of the property underwriting and sales process for the marketing of institutional properties in Northern California and also spearheaded JLL’s first auction sales in the Bay Area. Over his career at JLL, Mr. Herter was recognized as a CoStar Power Broker, was part of NAIOP’s Investment Sales Team of Year in San Francisco, earned JLL’s Da Vinci Award for innovation, and became a LEED Accredited Professional.</p>
+                    <p>Mr. Herter earned his BA in Architecture and Economics from Middlebury College (2006), where he was a member of the lacrosse team. He lives with his wife&nbsp;and&nbsp;their son in Somerville.</p>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+        <div class="box"></div>
+    </div>
+</div>
+
+<div id="ADVANTAGES" style="position:relative; top:-45px;"></div>
+<div class="page" id="advantages">
+    <div class="content">
+        <h1><ce oet="a250">Competitive Advantages</ce></h1>
+        <p class="pageSubHeader co"><ce oet="a251">Michael Smith’s roots in institutional real estate investment combined with a nimble, entrepreneurial approach position the firm as a dynamic new voice in real estate private equity.</ce></p>
+        <div class="info3" style="background:url(i/infographics3.png) no-repeat center center;font-size:13px;line-height:16px;width:940px;height:500px;position:relative;margin-bottom:100px;color:#343434;">
+            <div class="e1"><ce oet="a200">Years average experience of the<br>Four Founding Partners</ce></div>
+            <div class="e2"><ce oet="a201">Real estate acquired by Founding Partners</ce></div>
+            <div class="e3"><ce oet="a202">Markets with extensive operating and acquisitions experience</ce></div>
+            <div class="e4"><ce oet="a203">High-quality, mid-sized property types targeted – Industrial and Retail</ce></div>
+            <div class="e5"><ce oet="a204">Deals acquired by Founding Partners using extensive local relationships</ce></div>
+            <div class="e6"><ce oet="a205">Percentage of deals sourced off-market</ce></div>
+            <div class="e7"><ce oet="a206">Years majority of Founding Partners have worked together executing investment strategy</ce></div>
+            <div class="e8"><ce oet="a207">Commercial real estate asset managed by team members</ce></div>
+            <div class="e9"><ce oet="a208">20</ce></div>
+            <div class="e10"><ce oet="a209">2</ce></div>
+            <div class="e11"><ce oet="a210">10</ce></div>
+            <div class="e12"><ce oet="a211">2</ce></div>
+            <div class="e13"><ce oet="a212">89</ce></div>
+            <div class="e14"><ce oet="a213">50</ce></div>
+            <div class="e15"><ce oet="a214">10</ce></div>
+            <div class="e16"><ce oet="a215">8</ce></div>
+            <div class="e17"><ce oet="a216">$</ce></div>
+            <div class="e18"><ce oet="a217">$</ce></div>
+            <div class="e19"><ce oet="a218">+</ce></div>
+            <div class="e20"><ce oet="a219">+</ce></div>
+            <div class="e21"><ce oet="a220">%</ce></div>
+            <div class="e22"><ce oet="a221">billion</ce></div>
+            <div class="e23"><ce oet="a222">billion</ce></div>
+            <div class="e24"><ce oet="a223">industry experience</ce></div>
+            <div class="e25"><ce oet="a224">established network</ce></div>
+            <div class="e26"><ce oet="a225">investment focus</ce></div>
+            <div class="e27"><ce oet="a226">collaborative culture</ce></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #infographics h4{text-transform:uppercase;font-size:14px;}
+    #infographics div {text-align:center;}
+</style>
+<div id="INFOGRAPHICS" style="position:relative; top:-45px;"></div>
+<div class="page" id="infographics">
+    <div class="content">
+        <h1><ce oet="67">Guiding Principles</ce></h1>
+        <p class="co"><ce oet="60">Our culture and investment approach are built on specific, enduring values.</ce></p>
+        <div style="background:url(i/infographics4.png) no-repeat center top;font-size:13px;line-height:16px;width:940px;height:600px;position:relative;color:#343434;"><h4 style="position:absolute; left:415px;top:134px;">We focus on</h4>
+            <div style="position:absolute;left:55px;top:56px;width:200px;"><ce oet="61"><h4>Clients</h4>Our number one priority is to serve the needs of our investors, which drives us to operate with prudence, professionalism and financial discipline.</ce></div>
+            <div style="position:absolute;left:55px;bottom:230px;width:200px;"><ce oet="62"><h4>Ideas</h4>We believe collaboration and shared success create a culture of accountability and productivity.</ce></div>
+            <div style="position:absolute;right:50px;top:56px;width:200px;"><ce oet="63"><h4>Excellence</h4>We take great pride in our work and strive for excellence in all our endeavors.</ce></div>
+            <div style="position:absolute;right:30px;bottom:180px;width:250px;"><ce oet="64"><h4>Teamwork</h4>Our assets are our people, reputation and relationships. Like our namesake wildlife refuge, we seek to create a dynamic and symbiotic environment offering an opportunity for all in the ecosystem to grow and prosper.</ce></div>
+            <div style="position:absolute;left:344px;bottom:160px;width:260px;text-align:center;"><ce oet="65"><h4>People</h4>
+                We believe that concrete knowledge and diverse perspectives are key to finding actionable ideas that drive superior investment returns.</ce></div>
+        </div>
+        <br><br>
+    </div>
+</div>
+
+<div id="PROPERTIES" style="position:relative; top:-45px;"></div>
+<div id="ASSETS" style="position:relative;">
+    <div class="page" id="assets">
+        <div class="content">
+            <h1><ce oet="72">Select Assets</ce></h1>
+            <table class="assetTable" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr><td>
+                    <div id="leftArrow" style="height: 697px;"></div>
+                    <div class="ASSCbox">
+                        <div class="assetSliderSuperContainer">
+                            <div class="assetSliderC">
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554794_country_isles.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Country Isles Plaza</p>
+                                        <p class="AILocation">Ivana, Kiev</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>106,300 square foot shopping center</li>
+                                            <li>Anchored by Publix and CVS</li>
+                                            <li>Recently redeveloped and expanded Publix building</li>
+                                            <li>Diverse merchandising mix of national and regional retailers</li>
+                                            <li>Strong demographics and high traffic counts</li>
+                                            <li>Ample parking and convenient access</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554792_highlandStation.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Smyrna Station</p>
+                                        <p class="AILocation">Smyrna, Kiev</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>95,300 square foot shopping center</li>
+                                            <li>Anchored by Publix with healthy mix of service-oriented in-line retailers</li>
+                                            <li>Excellent street frontage and pylon signage visibility</li>
+                                            <li>Convenient ingress/egress access points</li>
+                                            <li>Strong demographics</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554793_Untitled-1_03.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Mega Business Center</p>
+                                        <p class="AILocation">Myru, Mykolaiv</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>Three building, multi-tenant 175,400 square foot industrial property</li>
+                                            <li>Built in 2001 on 11.88 acres adjacent to DFW International Airport</li>
+                                            <li>Convenient access within well-located business park</li>
+                                            <li>Features ample dock high overhead doors, 24’ clear height, 185’ truck court, full sprinkler system, T-5 lighting and 1.8/1,000 parking ratio</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554795_braker.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Braker K</p>
+                                        <p class="AILocation">Dmytra, Donetsk</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>152,500 square foot multi-tenant industrial distribution center</li>
+                                            <li>Built in 1986 and renovated in 2004</li>
+                                            <li>Convenient access within well-located business park</li>
+                                            <li>Features ample dock high overhead doors, 24’ clear height, 125’ truck court, full sprinkler system, T-5 lighting and 2.8/1,000 parking ratio</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="assetSliderC">
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554794_country_isles.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Artilna Isles Plaza</p>
+                                        <p class="AILocation">Artilna, Kharkiv</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>106,300 square foot shopping center</li>
+                                            <li>Anchored by Publix and CVS</li>
+                                            <li>Recently redeveloped and expanded Publix building</li>
+                                            <li>Diverse merchandising mix of national and regional retailers</li>
+                                            <li>Strong demographics and high traffic counts</li>
+                                            <li>Ample parking and convenient access</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554792_highlandStation.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Highland Station</p>
+                                        <p class="AILocation">Smyrna, Odesa</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>95,300 square foot shopping center</li>
+                                            <li>Anchored by Publix with healthy mix of service-oriented in-line retailers</li>
+                                            <li>Excellent street frontage and pylon signage visibility</li>
+                                            <li>Convenient ingress/egress access points</li>
+                                            <li>Strong demographics</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554793_Untitled-1_03.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Westport Business Center</p>
+                                        <p class="AILocation">Orlovs, Dnipropetrovsk</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>Three building, multi-tenant 175,400 square foot industrial property</li>
+                                            <li>Built in 2001 on 11.88 acres adjacent to DFW International Airport</li>
+                                            <li>Convenient access within well-located business park</li>
+                                            <li>Features ample dock high overhead doors, 24’ clear height, 185’ truck court, full sprinkler system, T-5 lighting and 1.8/1,000 parking ratio</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                                <div class="assetItem">
+                                    <div class="assetImage" style="background-image:url(documents/FG/longpoint/assets/554795_braker.jpg);"></div>
+                                    <div class="assetItemContent" style="height: 339px;">
+                                        <p class="AIName">Braker K</p>
+                                        <p class="AILocation">Calibrova, Zaporizhia</p>
+                                        <div class="AIDesc"><ul>
+                                            <li>152,500 square foot multi-tenant industrial distribution center</li>
+                                            <li>Built in 1986 and renovated in 2004</li>
+                                            <li>Convenient access within well-located business park</li>
+                                            <li>Features ample dock high overhead doors, 24’ clear height, 125’ truck court, full sprinkler system, T-5 lighting and 2.8/1,000 parking ratio</li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rightArrow" style="height: 697px;"></div>
+                </td>
+                </tr></tbody></table>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        var largest = 0;
+
+        setTimeout(function() {
+            $('.assetItem .assetItemContent').each(function() {
+                if($(this).height() > largest)
+                {
+                    largest = $(this).height();
+                }
+            });
+            $('.assetItem .assetItemContent').css('height',largest+'px');
+            $('#leftArrow, #rightArrow').css('height',$('#assets .assetItem').height()+'px');
+        },1000);
+
+
+        $('#leftArrow').click(function() {
+            sliderLeft();
+        });
+        $('#rightArrow').click(function() {
+            sliderRight();
+        });
+    });
+
+    function sliderRight()
+    {
+        var width = ($(window).width().toFixed());
+        if(width < 767 || $('.assetSliderSuperContainer').is(':animated')){return;}
+        l=($(".assetSliderSuperContainer").position().left - 102);
+        itemWidth = $('.assetItem').outerWidth(true);
+        //console.log('RIGHT   l is: '+l+', and itemwidth is: '+itemWidth);
+        $(".assetSliderSuperContainer").stop().animate({"left":(l-itemWidth)+"px"},300,'easeInOutCubic',function()
+        {
+            l=($(".assetSliderSuperContainer").position().left - 102);
+            //console.log(l +', ' + (-1* $(".assetSliderSuperContainer .assetSliderC:eq(0) .assetItem").length)*$('.assetItem').outerWidth(true));
+            if (l <= (-1* $(".assetSliderSuperContainer .assetSliderC:eq(0) .assetItem").length)*$('.assetItem').outerWidth(true))
+            {
+                $(".assetSliderSuperContainer").css("left",0);
+                $(".assetSliderSuperContainer .assetSliderC:first").appendTo(".assetSliderSuperContainer");
+            }
+        });
+    }
+
+    function sliderLeft()
+    {
+        var width = ($(window).width().toFixed());
+        if(width < 767 || $('.assetSliderSuperContainer').is(':animated')){return;}
+        l=($(".assetSliderSuperContainer").position().left - 102);
+        itemWidth = $('.assetItem').outerWidth(true);
+        //console.log('LEFT   l is: '+l+', and itemwidth is: '+itemWidth);
+        if ((l)>=0)
+        {
+            //$(".assetSliderSuperContainer .assetSliderC:last").prependTo(".assetSliderSuperContainer");
+            $(".assetSliderSuperContainer").stop().css("left", -$('.assetSliderC').width()+"px");
+        }
+        l=($(".assetSliderSuperContainer").position().left - 102);
+        $(".assetSliderSuperContainer").stop().animate({"left":(l+itemWidth)+"px"},300);
+    }
+
+</script>
+
+<div class="page" id="contact">
+    <div class="content">
+        <h1><ce oet="35">Contact Us</ce></h1>
+        <img src="i/contact-div-line.png">
+        <table cellspacing="0">
+            <tbody><tr>
+                <td class="left"><ce oet="33"><h2>Michael Smith Realty Partners</h2>
+                    116 Huntington Ave, Suite 905<br>Boston, MA 02116<br>(617) 861-9760<br><a href="mailto:info@michaelsmithpartners.com">info@michaelsmithpartners.com</a></ce>
+
+                </td>
+                <td valign="top">
+                    <ce oet="34"><h2 style="text-transform:none;">MEDIA INQUIRIES</h2></ce>
+                    <ce oet="35">
+                        Matthew Kirdahy&nbsp;<br>
+                        (212) 343-2366 <br> <a href="mailto:matthew@michaelsmithpartners.com">matthew@michaelsmithpartners.com</a>
+                    </ce>
+                </td>
+            </tr>
+            </tbody></table>
+    </div>
+    <a class="btn-terms">Terms of Use</a>
+</div>
+
+<div id="cover"></div>
+<div id="terms"><a class="btn-close"></a><div class="content">
+    <h3>TERMS OF USE</h3>
+    <p>Effective as of November 25, 2015</p>
+    <p>Please read these Terms of Use and, if you agree with them, click the “I Accept” button below.  By clicking the “I Accept” button, you acknowledge and confirm that you have read, understood and agree to abide by these Terms of Use.  If you do not accept all of these Terms of Use, you will not be permitted to access the Site (as defined below).  These Terms of Use constitute a legal agreement between you and Michael Smith Realty Partners, LP and its affiliates with respect to the subject matter set forth herein. The Site is available only to, and may only be used by, individuals who can form legally binding contracts under applicable law.  Without limiting the foregoing, the Site is not available to persons under age 18. By clicking the “I Accept” button below, you represent and warrant that you have the authority to bind the User (as defined below) to these Terms of Use.</p>
+    <p><strong>THE SITE</strong></p>
+    <p>Michael Smith Realty Partners, LP and its affiliates (“Michael Smith”) provide, through use of the website www.michaelsmithpartners.com (the “Site”), information regarding Michael Smith’s services.  This Site is owned and operated by Michael Smith or one of its affiliates and is being provided to you under the following terms and conditions and any rules, policies and procedures that may be published from time to time on the Site by Michael Smith (and shall be incorporated into these Terms of Use by reference).</p>
+    <p>These Terms of Use govern access to and use of the Site by investors and other visitors to the Site. Only investors and other users for whom Michael Smith provides login credentials (each, a “Registered User”) may access the restricted areas of the Site (the “Restricted Areas”).   For the purposes of these Terms of Use, “you” or “your” shall refer to you as a visitor to or Registered User of the Site.</p>
+    <p>The Site is controlled and offered by Michael Smith from the United States of America.  The Site is intended for use by United States residents only, and should not be used by any person in any jurisdiction where such use is contrary to local law or regulation. Michael Smith makes no representation that the Site or any content contained on the Site is appropriate or available for use in other jurisdictions.  If you are a non-U.S. resident and you access the Site, you do so at your own risk and are responsible for compliance with local laws and regulations.</p>
+    <p>Software from the Site and any data included on the Site is further subject to United States export controls. Software and data from the Site may not be downloaded or otherwise exported or re-exported outside the United States in violation of any applicable U.S. export laws and regulations.</p>
+    <p>As a condition to your use of the Site, you represent and warrant to, and agree with, Michael Smith that you will not use the Site for any purpose that is unlawful or prohibited by these Terms of Use.</p>
+    <p><strong>USE LIMITATIONS</strong></p>
+    <p>Michael Smith hereby grants you a non-exclusive, non-transferable personal license to access and use the Site solely for your personal or internal business purposes in connection with your or your organization’s current or potential investment activities with Michael Smith, and in accordance with these Terms of Use.  You may print pages from the Site solely for such permitted use, provided that (i) all copyright, trademark and other proprietary rights notices must appear on all copies, (ii) the content on the Site may not be modified or altered in any way, and (iii) no graphics may be used separate from accompanying text. Other than as expressly provided in this paragraph, you may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, products or services obtained from the Site. Except for the limited right to access and use the Site in accordance with these Terms of Use, nothing contained herein transfers any right, title or interest in or to the Site or its content to you.  Any rights not expressly granted herein are reserved by Michael Smith.</p>
+    <p>You agree that you are responsible for your actions in connection with your access to or use of the Site or its content, including, without limitation, any content transmitted or posted by you through the Site; Michael Smith shall not be liable for the content of your communications, postings or data transmitted through the Site or for any unlawful use by you of the Site or its content.  You are prohibited from using the Site to advertise or perform any commercial solicitation. You also are prohibited from using any robot, spider, scraper or other automated means to access the Site for any purpose. You may not take any action that imposes, or may impose, in our sole discretion, an unreasonable or disproportionately large load on our infrastructure, interfere or attempt to interfere with the proper working of the Site or any activities conducted on the Site, or bypass any measures that we may use to prevent or restrict access to the Site. You shall not, directly or indirectly, reverse engineer, decompile, disassemble, translate or convert any computer programs used to access the Site.  You further agree: (i) to abide by all applicable laws and regulations in your access to or use of the Site or its content; (ii) not to impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with any person or entity; (iii) not to use the Site to unlawfully collect or harvest personal or financial information about Michael Smith or third parties, including, without limitation, other users of the Site; (iv) not to post, promote or transmit through the Site any unlawful, harassing, libelous, abusive, threatening, harmful, vulgar, obscene, hateful or otherwise objectionable material of any kind or nature; (v) not to interfere with a third party’s use or enjoyment of the Site; and (vi) not to upload or distribute in any way files that contain viruses, corrupted files or any other similar software or programs that may damage the operation of the Site or another’s computer or operating system.</p>
+    <p>Unauthorized access to and/or use of the Site, or to the telecommunications or computer facilities used to deliver the Site, is a breach of these Terms of Use and is a violation of law.</p>
+    <p><strong>REGISTRATION INFORMATION</strong></p>
+    <p>Any and all investors currently holding interests in investment vehicles managed by Michael Smith will be provided login credentials by Michael Smith to access the Restricted Areas of the Site.  In some instances, Michael Smith may provide prospective investors with login credentials for limited access to certain areas of the Site. If you are a current investor and have not received any login credentials, please contact Michael Smith to obtain access to the Restricted Areas of the Site.</p>
+    <p>In order to use the Restricted Area, a Registrant must: (i) provide certain current, complete, and accurate information about the Registrant as requested by Michael Smith; and (ii) maintain and update such Registrant information as required to keep information current, complete, and accurate. (iii) provide all equipment, including a computer and modem, necessary to establish a connection to the Web; (iv) provide for the Registrant’s own access to the Web; and (v) pay any telephone, data, hosting or other service fees associated with such access.  Michael Smith reserves the right to decline to provide you with access, or to terminate your access, to any Restricted Areas if Michael Smith learns that you have provided it with false, misleading or inaccurate registration information.</p>
+    <p><strong>REGISTRANT LOGIN CREDENTIALS</strong></p>
+    <p>You are responsible for maintaining the confidentiality of your login credentials.  You are entirely responsible for any and all activities which occur under your login credentials whether or not authorized by you.  Although Michael Smith will not be liable for losses caused by any unauthorized use of Registrant’s account, Registrants may be liable for the losses of Michael Smith or others due to such unauthorized use.</p>
+    <p>You may not allow others to use your login credentials to access or use any part of the Site.  You agree to (i) take reasonable steps to prevent the unauthorized use or disclosure of your login credentials, (ii) notify Michael Smith immediately of any actual or suspected loss, theft or unauthorized use of your login credentials and (iii) take any reasonable steps to prevent any further unauthorized use or disclosure. If you provide your login credentials to any third party, you will be solely responsible for any actions taken by such third party using your login credentials.</p>
+    <p><strong>NO SECURITIES OFFERING OR INVESTMENT ADVICE</strong></p>
+    <p>The materials, content and information available on the Site are for information purposes only and do not constitute any investment advice or advertisement or an offer to sell or a solicitation of an offer to purchase any share/interest in any investment vehicle.  Except for these Terms of Use, access to or use of the Site will not create any legal relationship between you and Michael Smith.</p>
+    <p>The information on the Site is provided on a confidential basis.  It is not intended as and does not constitute investment advice or legal or tax advice or an offer to sell any securities to any person or a solicitation of any person of any offer to purchase any securities. The information in the Site should not be construed as Michael Smith’s endorsement, recommendation or sponsorship of any company or security. There are inherent risks in relying on, using or retrieving any information found on the Site, and Michael Smith urges you to make sure that you understand these risks before relying on, using or retrieving any information on the Site. You should evaluate the information made available through the Site, and you should seek the advice of professionals, as appropriate, to evaluate any opinion, advice, product, service or other information.  Any investment in any privately offered investment product involves a high degree of risk and is suitable only for sophisticated investors.  Registered Users of the Site must rely entirely on their own advisors as to legal, tax, financial or other matters relevant to the suitability of any investment.  Michael Smith does not guarantee the suitability or potential value of any particular investment or information source.</p>
+    <p>You acknowledge that any of your requests for information are unsolicited and any information provided or made available by Michael Smith shall neither constitute nor be construed as investment advice from Michael Smith to you or to form an investment advisory relationship, or any other client relationship between you and Michael Smith or any of employees.</p>
+    <p><strong>PERFORMANCE DATA</strong></p>
+    <p>ANY PERFORMANCE DATA EXPRESSED ON THE SITE IS AN INDICATION OF PAST PERFORMANCE AND DOES NOT INDICATE OR GUARANTEE FUTURE RESULTS. THERE IS A POSSIBILITY OF LOSS ON ALL INVESTMENTS AND INVESTOR PRINCIPAL IS NOT GUARANTEED. THE PAST PERFORMANCE OF ANY INVESTMENT, INVESTMENT STRATEGY OR INVESTMENT STYLE IS NOT INDICATIVE OF FUTURE PERFORMANCE, WHICH MAY BE SIGNIFICANTLY AFFECTED BY CHANGES IN ECONOMIC AND OTHER CONDITIONS.</p>
+    <p><strong>DISCLAIMERS AND LIMITATION OF LIABILITY</strong></p>
+    <p>WHILE LONGPOINT USES REASONABLE EFFORTS TO INCLUDE ACCURATE AND UP TO DATE INFORMATION ON THE SITE, ERRORS OR OMISSIONS SOMETIMES OCCUR.  THE INFORMATION, SOFTWARE AND/OR SERVICES MADE AVAILABLE ON OR THROUGH THE USE OF THE SITE MAY INCLUDE INACCURACIES OR ERRORS.  THE ACCURACY, COMPLETENESS, TIMELINESS AND CORRECT SEQUENCING OF SUCH INFORMATION, SOFTWARE AND SERVICES AND THE RESULTS OBTAINED FROM THEIR USE ARE NOT GUARANTEED BY LONGPOINT AND NO REPRESENTATION IS MADE BY LONGPOINT WITH RESPECT THERETO.</p>
+    <p>THE USE OF THE SITE IS AT THE USER’S SOLE RISK.  THE SITE IS PROVIDED ON AN “AS IS” “AS AVAILABLE” BASIS. LONGPOINT AND/OR ITS THIRD PARTY PROVIDERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE CONTENT AND OPERATION OF THE SITE AT ANY TIME WITHOUT NOTICE. THE SITE MAY BE TEMPORARILY UNAVAILABLE FROM TIME TO TIME DUE TO REQUIRED MAINTENANCE, TELECOMMUNICATIONS INTERRUPTIONS OR OTHER REASONS.  LONGPOINT AND/OR ITS THIRD PARTY PROVIDERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION, SOFTWARE, PRODUCTS AND SERVICES CONTAINED ON OR MADE AVAILABLE THROUGH THE USE OF THE SITE FOR ANY PURPOSE OR AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SITE OR AS TO THE ACCURACY OR RELIABILITY OF ANY CONTENT OR ANY INFORMATION OBTAINED THROUGH THE SITE. ALL SUCH INFORMATION, SOFTWARE, PRODUCTS AND SERVICES ARE PROVIDED WITHOUT WARRANTY OF ANY KIND. LONGPOINT AND/OR ITS RESPECTIVE PROVIDERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION, SOFTWARE, PRODUCTS AND SERVICES, INCLUDING ALL IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND AVAILABILITY. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.</p>
+    <p>YOUR USE OF THE SITE IS AT YOUR OWN RISK. YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM, LOSS OF DATA, INFECTION BY VIRUS OR ANY OTHER DAMAGE OR LOSS THAT RESULTS FROM THE YOUR USE OF, ACCESS TO OR DOWNLOAD OF ANY CONTENT FROM THE SITE. IN NO EVENT SHALL LONGPOINT AND/OR ITS THIRD PARTY PROVIDERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH OR RELATING TO THE USE OF OR ACCESS TO THE SITE OR WITH THE DELAY OR INABILITY TO USE THE SITE, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS OR SERVICES OBTAINED THROUGH THE SITE, WHETHER BASED ON CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, EVEN IF LONGPOINT OR ANY OF ITS PROVIDERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.</p>
+    <p><strong>OWNERSHIP OF CONTENT</strong></p>
+    <p>The Site and all of its content are the property of Michael Smith or its affiliates and are protected by U.S. and international copyright and other intellectual property and related laws, rules and regulations, with all rights reserved unless otherwise noted.  All trademarks, service marks, trade names and other product and service names and logos displayed on the Site (each, a “Mark”), whether registered or unregistered, are proprietary to Michael Smith or its affiliates or third parties who have licensed such marks to any of them.  Nothing contained on the Site should be construed as granting, by implication, estoppel, or otherwise, any license or right to use any Mark without the prior written permission of Michael Smith or such applicable affiliate or third party licensor. Your use of any content on the Site, whether owned by Michael Smith or any of its affiliates or any third party, without Michael Smith’s express written permission, is strictly prohibited except as otherwise expressly permitted in these Terms of Use. Without limiting the foregoing, you are prohibited from using any copyrighted material available on the Site or the Marks for any purpose, including, but not limited to, use as metatags, links or otherwise on any website, without the prior written permission of Michael Smith.</p>
+    <p>Anything that you transmit to the Site becomes the property of Michael Smith, may be used by Michael Smith for any lawful purpose, and is further subject to disclosure as deemed appropriate by Michael Smith, including to any legal or regulatory authority to which Michael Smith is subject.</p>
+    <p><strong>CONFIDENTIALITY</strong></p>
+    <p>All information in the Restricted Areas of the Site is confidential and private and you may not disclose or distribute such information to any other person for any purpose without the prior consent of Michael Smith, which may be granted or withheld in its sole and absolute discretion.  You may only use such confidential information in connection with your use of the Site or the services provided by Michael Smith through the Site or in connection therewith, in accordance with these Terms of Use.  You shall take reasonable measures to protect such confidential information from disclosure to third parties. You are responsible for all unauthorized uses or disclosures of such confidential information by any third party to whom you disclose such confidential information.  You agree that any actual or threatened breach of these confidentiality and non-use obligations by you would cause irreparable harm to Michael Smith, and that money damages will not provide an adequate remedy.  In such case, you agree that Michael Smith or any of its affiliates is entitled to seek (without limiting any other rights or remedies) an injunction or other equitable relief, and you waive the posting of any bond or surety in connection therewith.</p>
+    <p><strong>COPYRIGHT INFRINGEMENT</strong></p>
+    <p>Michael Smith does not permit infringing copyright activities and other infringement of intellectual property rights on its Site, and Michael Smith will remove any content on its Site if properly notified that such content infringes on another’s intellectual property rights.  If you are a copyright owner or an agent thereof and believe that any content made available on the Site infringes upon or otherwise conflicts with your copyrights, you may submit a notification pursuant to the Digital Millennium Copyright Act (“DMCA”) by providing our copyright agent with the following information in writing (see 17 U.S.C. § 512(c)(3) for further detail):  (i) a physical or electronic signature of a person authorized to act on behalf of the owner of the right that is allegedly infringed; (ii) identification of the copyrighted work claimed to have been infringed; (ii) identification of the material that is claimed to be infringing and information reasonably sufficient to permit the service provider to locate the material; (iv) information reasonably sufficient to permit the service provider to contact you or the complaining party, such as an address, telephone number, and an electronic mail address; (v) a statement that you have or the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and (vi) a statement that the information in the notification is accurate and, under penalty of perjury, that you or the complaining party are authorized to act on behalf of the owner of the right that is allegedly infringed.  Please contact Michael Smith’s designated Copyright Agent to send notifications of claimed infringement.  For clarity, only DMCA notices should go to the Copyright Agent; any other feedback, comments, requests for technical support, and other communications should be directed to Michael Smith’s investor relations team at info@michaelsmithpartners.com.  You hereby acknowledge and agree that if you fail to comply with all of the requirements listed above, your DMCA notice may not be valid.</p>
+    <p>If any content is believed in good faith by Michael Smith to infringe a copyright or otherwise violate any intellectual property right, Michael Smith will use commercially reasonable efforts to remove or disable access to any such material as set forth in the DMCA.  If you believe that a notice of copyright infringement has been wrongly filed against you and you would like to submit a counter-notification, you may file a counter-notification in response to a claim of copyright infringement with Michael Smith’s Copyright Agent.</p>
+    <p><strong>PRIVACY</strong></p>
+    <p>To the extent that Michael Smith collects any information from Registered Users of the Site, the collection and use of such information is governed by Michael Smith’s Privacy Notice, which is available on the Site and which you should read before providing any such information to Michael Smith.</p>
+    <p>Michael Smith has taken reasonable steps to prevent unauthorized access to the Site and the content thereon.  However, Michael Smith cannot guarantee, and you should not expect, that your information on the Site will remain private under all circumstances.  Michael Smith does not assume any responsibility or liability for any information you submit, or for your or a third party’s use or misuse of information transmitted or received, during use of the Site.</p>
+    <p><strong>CYBERSECURITY WARNING</strong></p>
+    <p>Please be aware of the following policies that can serve to protect your information: (i) we do not actively solicit or market to prospective investors; (ii) only the http://longpoint.aistech.biz/ website domain is authentic; (iii) under no circumstances will any of our employees ask you to provide your login credentials; and (iv) all e-mails from our employees use the @longpointrealty.com domain.  Generally, only members of Michael Smith’s investment relations team from Michael Smith will contact our investors.  This email address is info@michaelsmithpartners.com.  Please call us at the phone number below if you have any questions regarding any communication that you receive from Michael Smith.  When in doubt, please call us.</p>
+    <p><strong>LINKS TO THIRD PARTY WEBSITES</strong></p>
+    <p>The Site may contain hyperlinks to websites operated by parties other than Longpoiont, which Michael Smith may not have screened or reviewed and which may contain inaccurate, inappropriate or offensive material, products or services. Michael Smith does not control such websites, and Michael Smith assumes no responsibility or liability regarding the accuracy, reliability, legality or decency of such third-party websites, content, products or services. Such hyperlinks are provided for your convenience only.  Michael Smith’s inclusion of hyperlinks to such websites does not imply any endorsement of the material on such websites or any association with their operators.</p>
+    <p><strong>MODIFICATION AND MONITORING OF SITE</strong></p>
+    <p>We may, at our discretion, change, modify, add or remove portions of these Terms of Use at any time without notice to you. We suggest that you check these Terms of Use periodically for changes. These Terms of Use can be accessed from the link at the top of the Site.  If you use the Site after we post changes to these Terms of Use, you accept the changed Terms of Use.</p>
+    <p>Michael Smith has the right, but not the obligation, to monitor and record activity on the Site and respond as it deems appropriate.  We may monitor and record activity on the Site for any reason or for no reason.  Michael Smith may investigate any complaint or reported violation of our policies.  We may report any activity that we suspect may violate any law or regulation to regulators, law enforcement officials or other persons or entities that we deem appropriate.</p>
+    <p><strong>TERMINATION AND CANCELLATION</strong></p>
+    <p>Michael Smith may terminate the Site and terminate your access to the Site or any part thereof, without notice to you at any time and for any reason. Nothing set forth herein shall obligate Michael Smith to support or update the Site.  Michael Smith shall not be liable to you or any third party in the event that Michael Smith exercises its right to modify or discontinue the Site or any portion thereof.</p>
+    <p><strong>INDEMNITY</strong></p>
+    <p>You agree, at your own expense, to indemnify, defend and hold harmless Michael Smith Realty Partners, LP, its affiliates and their respective directors, officers, partners, managers, members, employees, agents, contractors and licensees, from and against any and all judgments, losses, deficiencies, damages, liabilities, costs, claims, demands, suits, actions, proceedings and expenses (including, without limitation, reasonable attorneys’ fees and court costs) incurred in, arising out of or in any way related to your breach of these Terms of Use, your use of the Site or any product or service related thereto, or any of your other acts or omissions.</p>
+    <p><strong>APPLICABLE LAW AND JURISDICTION</strong></p>
+    <p>These Terms of Use are governed by the laws of the Commonwealth of Massachusetts, without regard to its choice of law provisions. You hereby consent to the exclusive and personal jurisdiction and venue of the State and Federal courts located in Boston, Massachusetts, which shall have exclusive jurisdiction over any and all disputes arising out of or relating to these Terms of Use, the use of the Site or any product or service related thereto. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms of Use, including, without limitation, this paragraph.</p>
+    <p><strong>GENERAL</strong></p>
+    <p>You agree that no joint venture, partnership, employment or agency relationship exists between you and Michael Smith as a result of these Terms of Use or your access or use of the Site.  Michael Smith’s performance of these Terms of Use is subject to its compliance with applicable laws and regulations, and nothing in these Terms of Use is in derogation of Michael Smith’s right to comply with law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by Michael Smith with respect to such use.  If any part of these Terms of Use is determined to be invalid or unenforceable pursuant to applicable law, then the invalid or unenforceable provision shall be deemed severed and the remainder of these Terms of Use shall continue in effect.  These Terms of Use and Michael Smith’s Privacy Notice (as each may be updated from time to time) constitute the entire agreement between you and Michael Smith with respect to the Site and they supersede all prior or contemporaneous communications and proposals, whether electronic, oral or written, between us with respect to the Site.  No delay or failure on the part of either party in exercising any right or remedy hereunder shall operate as a waiver thereof or of any other right or remedy.  No waiver whatsoever shall be valid unless in writing, signed by the party to be charged, and then only to the extent therein set forth.  You shall not assign or otherwise transfer these Terms of Use, in whole or in part, or delegate or subcontract any of your rights or obligations hereunder, without Michael Smith Realty Partners, LP’s prior written consent.  Any attempted transfer or delegation by you without such consent will be void.  These Terms of Use will bind and inure to the benefit of each party’s successors and permitted assigns.</p>
+    <p>You may contact Michael Smith at the address provided below with any questions about these Terms of Use:</p>
+    <p>Michael Smith Realty Partners, LP<br>
+        116 Huntington Ave., Suite 905<br>
+        Kiev, Ukraine  02116<br>
+        Phone: 617-861-9760<br>
+        <a href="mailto:info@michaelsmithpartners.com">info@michaelsmithpartners.com</a></p>
+</div></div>
+<script>
+    $(document).ready(function() {
+        $(".btn-terms").click(function() {
+            $("#cover,#terms").show();
+        });
+        $("#cover,#terms .btn-close").click(function() {
+            $("#cover,#terms").hide();
+        });
+    });
+</script>
+
+<!--OVISTECHNOLOGIES.COM-->
+
+</body></html>
